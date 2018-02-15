@@ -1,0 +1,23 @@
+:root{
+    --baseColor: #ffc600;
+    --spacing: 10px;
+    --blur: 0px;
+}
+
+img{
+    padding: var(--spacing);
+    background: var(--baseColor);
+    filter: blur(var(--blur));
+}
+
+body{
+    background-color: cornflowerblue;
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 50px;    
+}
+
+.controls{
+    margin: 50px 0
+}
